@@ -98,10 +98,13 @@ class WCS_Query extends WC_Query {
 	/**
 	 * Set the subscription page title when viewing a subscription.
 	 *
+	 * @param string $endpoint Endpoint key.
+	 * @param string $action Optional action or variation within the endpoint.
+	 *
 	 * @since 2.0
-	 * @param $title
+	 * @since 3.0.10 Added $action parameter.
 	 */
-	public function get_endpoint_title( $endpoint ) {
+	public function get_endpoint_title( $endpoint, $action = '' ) {
 		global $wp;
 
 		switch ( $endpoint ) {
