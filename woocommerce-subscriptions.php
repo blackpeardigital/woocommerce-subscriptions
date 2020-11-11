@@ -5,10 +5,10 @@
  * Description: Sell products and services with recurring payments in your WooCommerce Store.
  * Author: WooCommerce
  * Author URI: https://woocommerce.com/
- * Version: 3.0.9
+ * Version: 3.0.10
  *
- * WC requires at least: 3.0.9
- * WC tested up to: 4.5
+ * WC requires at least: 3.0.10
+ * WC tested up to: 4.6.2
  * Woo: 27147:6115e6d7e297b623a169fdcf5728b224
  *
  * Copyright 2019 WooCommerce
